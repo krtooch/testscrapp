@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title> test scrapp</title>
+        <style>
+            #zone_chat strong {
+                color: white;
+                background-color: black;
+                padding: 2px;
+            }
+        </style>
+    </head>
+
+    <body>
+        <h1>scrappingtime</h1>
+        <ul>
+
+
+          <% liste.forEach(function(item, index) { %>
+
+           <li><%= item.marque %> - <%= item.type %> -<%= item.url %> -<%= item.categorie %>-<%= item.puissance %>-<%= item.porte %>-<%= item.kilometrage %>-<%= item.carburant %>-<%= item.annee %></li>
+           <% }); %>
+       </ul>
+        <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+
+        <script src="https://www.gstatic.com/firebasejs/3.3.1/firebase.js"></script>
+        <script>
+          // Initialize Firebase
+          var config = {
+            apiKey: "AIzaSyAewLIEBmoTQ4_aYWyeoO43zwg1PfvjpGE",
+            authDomain: "scrapptest-7b9e3.firebaseapp.com",
+            databaseURL: "https://scrapptest-7b9e3.firebaseio.com",
+            storageBucket: "",
+          };
+          firebase.initializeApp(config);
+        </script>
+
+
+    </body>
+</html>

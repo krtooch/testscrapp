@@ -1,0 +1,27 @@
+{
+  "name": "testscrapp",
+  "version": "0.0.1",
+  "description": "test de scrapp",
+  "main": "app.js",
+  "dependencies": {
+    "ejs": "~2.5.1",
+    "express": "^4.14.0",
+    "osmosis": "^1.1.0",
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/krtooch/testscrapp.git"
+  },
+  "author": "benoit",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/krtooch/testscrapp/issues"
+  },
+  "homepage": "https://github.com/krtooch/testscrapp#readme",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+
+}
